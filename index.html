@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="form-container">
+      <header>
+        <div class="user-name">
+          <h1>Harold Finch</h1>
+          <div>Your Total</div>
+        </div>
+        <div class="user-price">$88</div>
+      </header>
+
+      <form action="#" method="get" novalidate>
+        <div class="form-row">
+          <label for="cardNumber">
+            Credit card number
+          </label>
+          <input type="text" name="cardNumber" id="cardNumber">
+        </div>
+        <div class="form-row">
+          <label for="month">
+            Expiration date
+          </label>
+          <div>
+            <select name="month" id="month">
+                <option value="" disabled selected>Month</option>
+                <option value="">January</option>
+                <option value="">January</option>
+                <option value="">January</option>
+                <option value="">January</option>
+                <option value="">January</option>
+                <option value="">January</option>
+                <option value="">January</option>
+                <option value="">January</option>
+                <option value="">January</option>
+                <option value="">January</option>
+                <option value="">January</option>
+                <option value="">January</option>
+            </select>
+            <label for="">
+              <select name="year" id="year">
+                  <option value="" disabled selected>Year</option>
+                  <option value="">2019</option>
+                  <option value="">2019</option>
+                  <option value="">2019</option>
+                  <option value="">2019</option>
+              </select>
+            </label>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="cvv">
+            CVV
+          </label>  
+          <div class="cvv-holder">        
+            <input type="password" name="cvv" id="cvv">
+            <span>3 or 4 digits - <a href="#">view example</a></span>
+          </div>  
+        </div>
+        <div class="form-row button-pay">
+          <button>Pay</button>        
+          <a href="#">Cancel order</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
